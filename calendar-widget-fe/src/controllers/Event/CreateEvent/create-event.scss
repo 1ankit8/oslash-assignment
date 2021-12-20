@@ -1,0 +1,15 @@
+.create-event-form{
+    margin: auto 35%;
+    background-color: lighten($color: #000099, $amount: 30%);
+    .time-input-section{
+        display: flex;
+
+    }
+    .attendee-section{
+        position: relative;
+        .attendee-input-section{
+            display: flex;
+            
+        }
+    }
+}

@@ -1,0 +1,13 @@
+.invite-suggestions{
+    max-height: 50px;
+    overflow-y: auto;
+    .invitee{
+        border-radius: 8px;
+        cursor: pointer;
+        &.selected{
+            background-color: lighten($color: lime, $amount: 0.6);
+            cursor: default;
+            pointer-events: none;
+        }
+    }
+}

@@ -1,0 +1,6 @@
+.form-control{
+    display: flex;
+    flex-direction: column;
+    
+    background-color: lighten($color: #000099, $amount: 30%);
+}
