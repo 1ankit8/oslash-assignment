@@ -1,7 +1,7 @@
 const res = require('express/lib/response');
 const { google } = require('googleapis');
 const CLIENT_ID='1044653988686-rg5budg6dhlo90b552q3q2ap07696anp.apps.googleusercontent.com';
-const CLIENT_SECRET='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'
+const CLIENT_SECRET=''
 const REDIRECT_URL='http://localhost:3000'
 const GOOGLE_LOGIN_SCOPE = 'https://www.googleapis.com/auth/calendar https://www.googleapis.com/auth/calendar.events';
 
